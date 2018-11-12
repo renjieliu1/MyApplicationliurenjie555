@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.myapplicationliurenjie">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="myapplicationliurenjie"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".BaseFragment" />
+        <activity android:name=".CartFragment" />
+        <activity android:name=".CategoryFragment" />
+        <activity android:name=".HomeFragment" />
+        <activity android:name=".NavigationFragment" />
+        <activity android:name=".PersonFragment"></activity>
+    </application>
+
+</manifest>
